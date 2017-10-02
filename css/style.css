@@ -205,8 +205,9 @@ img.me{
 	height: 300px;
 	width: 300px;
 	position: absolute;
-    left: 25%;
-    top: 13%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 #skills{
@@ -419,6 +420,10 @@ header .navbar-default .navbar-toggle{
 }
 
 @media (max-width: 768px){
+    img.me{
+        height: 250px;
+        width: 250px;
+    }
 	.row{
 		margin-left:0px;
 		margin-right: 0px;
@@ -487,6 +492,13 @@ header .navbar-default .navbar-toggle{
 }
 
 @media only screen and (max-width: 500px){
+    img.me{
+        height: 180px;
+        width: 180px;
+    }
+    .smallScreenCss{
+        margin-top: 10px;
+    }
 	#projects .hovereffect .overlay,#projects .hovereffect img, 
 	#projects .thumbnail.hovereffect{
 		align-items: center;
