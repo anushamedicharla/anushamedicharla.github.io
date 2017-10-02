@@ -5,7 +5,6 @@ $('.fullHeight').css('height',wHeight);
 $(window).resize(function(){
 	var wHeight = $(window).height();  // Get the height of the window
 	$('.fullHeight').css('height',wHeight);
-	 checkWidth();
 });
 
 function equalHeight(group) {    

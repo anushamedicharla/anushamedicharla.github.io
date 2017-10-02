@@ -8,17 +8,15 @@
     <meta name="author" content="Anusha Medicharla">
 	<title>Anusha Medicharla - Portfolio</title>
 	<!-- Fonts -->
-	<link href="https://fonts.googleapis.com/css?family=Marck+Script|Oleo+Script|Open+Sans|Pavanam" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Bungee+Inline|Cabin+Sketch|Love+Ya+Like+A+Sister|Marck+Script|Monoton|Oleo+Script|VT323" rel="stylesheet">
+	<!-- Latest compiled and minified third party CSS -->
 	<link rel="stylesheet" type="text/css" href="css/animate.css">
-	<!-- Latest compiled and minified bootstrap CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css">
-
 	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css"/>
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css"/>
-
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
-
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css"/>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+	<!-- Custom CSS -->
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body data-spy="scroll" data-target=".navbar-fixed-top" data-offset="30">
@@ -41,7 +39,6 @@
 						<li><a href="#skills" onclick="smoothScrollbyID('skills')">Skills</a></li>
 						<li><a href="#projects" onclick="smoothScrollbyID('projects')">Projects</a></li>
 						<li><a href="#contactMe" onclick="smoothScrollbyID('contactMe')">Contact</a></li>
-<!--						<li><a href="anusha_medicharla_resume.pdf" target="_blank">Resume</a></li>-->
 					</ul>
 				</div>
 				
@@ -61,20 +58,27 @@
 	<div class="main">
 		<div class="page" id="aboutMe">
 			<div class="container-fluid">
-				<h1>About Me </h1>
+				<h1 class="sectionTitle">About Me </h1>
 				<div class="row">
-				<div class="col-md-1"> </div>
-					<div class="col-md-6">
-						<img id="book_shelf" class = "abtMe_imgs" src="images/books_shelf_3.png">
-						<img id="wall_clock" class = "abtMe_imgs" src="images/wall clock.png"><br>
-						<img id="web_dev" class = "abtMe_imgs_2 animated pulse" src="images/web-design-2.png"> 
-						<img id="phone" class = "abtMe_imgs animated shake" src="images/phone.png">	
+					<div class="col-md-6 clearfix">
+						<div class="row aboutMeDiv clearfix">
+								<img id="me" class = "me" src="images/me.jpg">
+								<img id="travelIcon" class = "abtMe_img abtMe_img1" src="images/travel.png"><br>
+								<img id="coffeeIcon" class = "abtMe_img abtMe_img2" src="images/coffee_cup_icon.png"><br>
+								<img id="designIcon" class = "abtMe_img abtMe_img3" src="images/designing.png"><br>
+								<img id="booksIcon" class = "abtMe_img abtMe_img4" src="images/books.jpg"><br>
+						</div>
 					</div>
+					<div class="col-md-1"> </div>
 					<div class="col-md-5">
 						<p>
-							Hey! This is Anusha. I hope your day is going great! <br>
-							I am a creative web developer. I graduated from Texas State University in Computer Science.<br>
-							I am passionate about developing beautiful websites and bringing the designs you created to life.<br> I believe in websites being completely responsive and user friendly.<br> I am comfortable with HTML, CSS, modern Javascript(Jquery, AngularJS,TypeScript) and Bootstrap Framework.<br> I am in the process of learning more to create awesome graphical websites.
+							Hey! This is Anusha. <br>
+							I am a creative Front End developer.<br>
+							I got my masters degree from Texas State University in Computer Science.<br>
+							I am passionate about developing beautiful websites and bringing the designs to life.<br> 
+							I believe in websites being completely responsive and user friendly.<br> 
+							I have a diverse set of skills including HTML, CSS, modern Javascript(Jquery, AngularJS, Angular,TypeScript), Bootstrap Framework, PHP<br>
+                            I love coffee, traveling, good mystery books and UI!
 						</p>
 					</div>
 				</div>
@@ -86,7 +90,7 @@
 
 	<div class="page" id="skills">
 		<div class="container-fluid">
-			<h1> Skills </h1>
+			<h1 class="sectionTitle"> Skills </h1>
 			<div class="skillScroll">
 				<div><img class="skillList" alt="HTML" title="HTML" src="images/skills/html.png"></div>
 		        <div><img class="skillList" alt="CSS"  title="CSS" src="images/skills/css.png"></div>
@@ -107,7 +111,7 @@
 
 	<div class="page" id="projects">
 		<div class="container-fluid">
-			<h1> Projects </h1>
+			<h1 class="sectionTitle"> Personal Projects </h1>
 				<div class="row">
 					<div class="col-lg-3 col-md-offset-0 col-md-4 col-sm-offset-2 col-sm-10">
     					<div class="thumbnail hovereffect" data-toggle="modal" data-target="#quizModal">
@@ -375,7 +379,7 @@
 
 	<div class="fixed-bg fixed-bg-contact" id="contactMe">
 		<div class="container-fluid">
-			<h1> Contact Me </h1>
+			<h1 class="sectionTitle"> Contact Me </h1>
 			<div class="row">
 				<div class="col-sm-12">
 					<a target="_blank" href="https://github.com/anushamedicharla">
