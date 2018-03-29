@@ -201,7 +201,7 @@ header .navbar-default .navbar-nav .active a:hover{
 }
 
 img.me{
-	border-radius: 50%;
+	/* border-radius: 50%; */
 	height: 300px;
 	width: 300px;
 	position: absolute;
